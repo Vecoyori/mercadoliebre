@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;500;700 & display=swap');
+
+
+.flex-container{ 
+    display: flex;
+      
+}
+
+.flex-container-products{
+    display: flex;
+}
+
+.price{ width: 30%; }
+
+.discount{ width: 70%; }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+p{ font-size: 12px; }
+
+h1, h2, h3{ font-size: 24px; }
+h3{
+    margin: 10px auto;
+    padding: 0 auto;
+    color: #666;
+}
+.price{
+    font-size: 18px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+h4{
+    font-size: 16px;}
+
+header{
+    background-color:  #EAC926;
+}
+div.top-header{
+    padding: 5%;
+}
+
+header div.top-header p{
+width: 100%;
+text-align: center;
+margin-top: 10px;
+}
+
+header div.logo{
+    width: 50%;
+    padding: 10px;
+}
+
+header nav{
+    font-size: 12px;
+}
+header ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+}
+header ul li a i{
+    margin-left: 2px;
+}
+
+.box{
+    padding: 10px;
+    width: 50%;
+}
+.container-1 input#search{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+
+      
+}
+.container-1 .icon{
+    color: #666;
+    
+}
+
+header div.build-credit-card p{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.burger-menu{ 
+    text-align: center; 
+
+}
+
+i.fa-bars{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+    box-sizing: border-box;
+}
+
+
+
+footer i{
+    color: blue;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footers{
+    background-color: white;
+    text-align: center;
+}
+main section article img{
+    width: 100%;
+}
+main section article{
+    background-color: #fff;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+article{
+    margin: 10px auto;
+}
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    box-sizing: border-box;
+}
+main article{
+    margin-right: 10px;
+}
+
+.flex-container-products{
+    display: flex;
+    flex-direction: column
+}
+
+.flex-container-nav1, .flex-container-nav2{
+    display: none;
+}
+
+div.products article h4.description{
+    display: none;
+}
+
+
+.top-header{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 425px){
+    main section article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .flex-container-products{
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .products article{
+        width: 45%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .flex-container-nav1, .flex-container-nav2{
+        display: flex;
+        flex-direction: column;
+    }
+    div.products article h4.description{
+        display:block
+    }
+    .flex-container-nav1, .flex-container-nav2{
+        flex-direction: row;
+        
+    }
+    .container-2{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .flex-container-top-header{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+
+@media (min-width: 769px){
+    .products article{
+        width: 20%;
+        
+    }
+    .burger-menu{
+        display: none;
+    }
+    .flex-container-nav1, .flex-container-nav2{
+        display: flex;
+        flex-direction: column;
+    }
+    div.products article h4.description{
+        display:block
+    }
+    .flex-container-nav1, .flex-container-nav2{   
+        flex-direction: row;
+        
+    }
+    .container-2{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+}
+
+
+
