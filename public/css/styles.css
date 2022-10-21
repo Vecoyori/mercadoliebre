@@ -202,11 +202,6 @@ header div.top-header p{
 }
 
 
-
-
-
-
-
 @media (min-width: 361px){
     main section article{
     display: block;
@@ -249,11 +244,9 @@ header div.top-header p{
     .top-header{
         display: flex;
         flex-direction: row;
-    }
-    
-    
-    
+    } 
 }
+
 
 @media (min-width: 769px){
     .products article{
@@ -288,8 +281,7 @@ header div.top-header p{
         display: flex;
         flex-direction: row;
     }
-    
-    
+ 
 }
 
 
